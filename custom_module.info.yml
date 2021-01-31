@@ -1,0 +1,5 @@
+name: Custom Module
+description: A custom module that handle system site information.
+pacakge: custom
+type: module
+core: 8.x

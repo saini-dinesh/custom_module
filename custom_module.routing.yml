@@ -1,0 +1,7 @@
+custom_site_info.page_json:
+  path: "/page_json/{site_api_key}/{page_id}"
+  defaults:
+    _title: ""
+    _controller: '\Drupal\custom_module\Controller\CustomModuleController::getPageInfo'
+  requirements:
+    _permission: "access content"

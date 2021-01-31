@@ -1,1 +1,1 @@
-# custom_module
+# custom_module to handle Site Settings Information
