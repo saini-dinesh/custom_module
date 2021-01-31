@@ -26,7 +26,7 @@ function custom_module_form_system_site_information_settings_alter(&$form, $form
     // Change form submit button text to 'Update Configuration'
     $form['actions']['submit']['#value'] = t('Update Configuration');
 
-    // Handle form submission
+    // Custom handler for form submission
     $form['#submit'][] = 'custom_submit_handler';
 }
 
